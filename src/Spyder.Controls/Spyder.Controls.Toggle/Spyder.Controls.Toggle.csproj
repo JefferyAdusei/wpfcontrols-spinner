@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <GenerateDocumentationFile>False</GenerateDocumentationFile>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>Spyder Custom Wpf Toggle Control</Title>
+    <Authors>Jeffery Adusei</Authors>
+    <Company>Spyder Inc.</Company>
+    <Description>Custom wpf toggle/check button control designed similar to an apple toggle button.</Description>
+    <Copyright>© Spyder Inc.</Copyright>
+    <RepositoryType>git</RepositoryType>
+    <RepositoryUrl>https://github.com/JefferyAdusei/wpf-control-toggle</RepositoryUrl>
+    <PackageTags>wpf;toggle;custom;check</PackageTags>
+    <Version>1.0.2</Version>
+  </PropertyGroup>
+
+</Project>

@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Spyder.Controls.Spinner", "Spyder.Controls.Spinner\Spyder.Controls.Spinner.csproj", "{4250E69A-A24C-4201-98D7-AF4F49CFA883}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Spinner", "Spinner", "{431D74C4-4056-42C8-B4D4-A11A94C838C6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{1D424C1F-22CE-4D93-B74D-A293C419A2ED}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Usage", "Usage", "{A8CE01E6-3EE7-4B85-8D87-88A545FD0550}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spyder.Controls.Spinner.Usage", "..\..\usage\Spyder.Controls.Spinner.Usage\Spyder.Controls.Spinner.Usage.csproj", "{54E5C6B5-AEB3-425F-98AF-EDBCFEF1F542}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4250E69A-A24C-4201-98D7-AF4F49CFA883}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4250E69A-A24C-4201-98D7-AF4F49CFA883}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4250E69A-A24C-4201-98D7-AF4F49CFA883}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4250E69A-A24C-4201-98D7-AF4F49CFA883}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54E5C6B5-AEB3-425F-98AF-EDBCFEF1F542}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54E5C6B5-AEB3-425F-98AF-EDBCFEF1F542}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54E5C6B5-AEB3-425F-98AF-EDBCFEF1F542}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54E5C6B5-AEB3-425F-98AF-EDBCFEF1F542}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4250E69A-A24C-4201-98D7-AF4F49CFA883} = {431D74C4-4056-42C8-B4D4-A11A94C838C6}
+		{54E5C6B5-AEB3-425F-98AF-EDBCFEF1F542} = {A8CE01E6-3EE7-4B85-8D87-88A545FD0550}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7F265435-ACEF-478B-AF3F-737F42ED19F4}
+	EndGlobalSection
+EndGlobal

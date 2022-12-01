@@ -1,0 +1,35 @@
+﻿<Window
+    x:Class="Spyder.Controls.Spinner.Usage.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:spinner="clr-namespace:Spyder.Controls.Spinner;assembly=Spyder.Controls.Spinner"
+    Title="MainWindow"
+    Width="800"
+    Height="450"
+    mc:Ignorable="d">
+    <Grid>
+
+        <Border HorizontalAlignment="Center" VerticalAlignment="Top">
+            <!--<spinner:IntegerSpinner FontSize="14" VerticalAlignment="Center" HorizontalAlignment="Center" Width="100" Height="50"/>-->
+        </Border>
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+            <spinner:NumericSpinner
+                Background="Black"
+                BorderThickness="0"
+                CornerRadius="4"
+                FontSize="15"
+                Foreground="Red" />
+            <spinner:IntegerSpinner
+                Margin="2"
+                Padding="3"
+                Background="Black"
+                BorderThickness="0"
+                CornerRadius="4"
+                FontSize="15"
+                Foreground="Red" />
+        </StackPanel>
+
+    </Grid>
+</Window>
